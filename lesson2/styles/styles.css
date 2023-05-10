@@ -1,0 +1,281 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+}
+.top {
+    background-color: black;
+    height: 45px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+.logo_1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.logo_2 {
+    color: #EC7979;
+    font-size: 30px;
+    font-weight: 800;
+}
+.logo_3 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.logo_4 {
+    color: #EC7979;
+    font-size: 60px;
+    font-weight: bold;
+}
+.navigation {
+    display: inline;
+    float: right;
+}
+.navigation a {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+.image1 {
+    height: 1026px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: linear-gradient(rgba(37, 43, 73, 0.4), rgba(37, 43, 73, 0.4)), url(https://www.peerspace.com/resources/wp-content/uploads/street-690826_1280.jpg)
+}
+h2 {
+    margin: 0 0 45px 0;
+    text-align: center;
+    }
+h2 span {
+    color: #EC7979;
+}
+form {
+    float: right;
+    width: 100%;
+    max-width: 350px;
+    margin: 285px 120px;
+    border: 1px solid #EC7979;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+.form-wrap {
+    padding: 30px;
+}
+[type="text"],
+[type="email"],
+[type="password"],
+button {
+    display: block;
+}
+[type="text"],
+[type="email"],
+[type="password"] {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 16px 0;
+}
+
+#getstarted {
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #EC7979;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+}
+.logo {
+    height: 100px;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+.logo div {
+    text-align: center;
+    margin-top: 40%;
+}
+.under-sign {
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    height: 300px;
+}
+.under-sign h1 {
+    margin-bottom: 20px;
+}
+.under-sign p {
+    margin-top: 30px;
+}
+.under-sign hr {
+    width: 120px;
+}
+.sign {
+    margin-top: 125px;
+}
+
+.btn_download {
+    width: 200px;
+    height: 50px;
+    background: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: 2px white solid;
+    margin-left: 50px;
+}
+.image2 {
+    height: 442px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(37, 43, 73, 0.4), rgba(37, 43, 73, 0.4)), url(https://s3-alpha-sig.figma.com/img/680a/df6a/d5064a22cac66d23ad962a3d7df61a61?Expires=1684713600&Signature=bFw~BSjjUXB-7IcbdIuP~8RQNcaen1Z~v-6I1ljejnBUyFAnu-P9hv4Q4dfGlpXXc4UCuyRpA6YQNgnhB7AWUZFSOxF3Smt2qlvoxufl-1dDSbtyBpXAKOCTqvDYYFwHOHClHSv6MK-y8MRUlIuV99vb0GtRKsMF3TIMpHhA8KdhBHmKIOr3Mo8j9TpGcJRLjQnusk4T8ko~9l1lQ5DkyvC7rBUaCFo9lmRY0V-u-HJ45mmk6u7vZuCFtXDWaqb-ASeOfnOlRUy8BB70~CUhCWu-eD51GicNeJCPNopNdJSSyg~kbDqD7HpTsmR2o5z6gAvynxd8yMeCFUgiHWSong__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4)
+}
+h3 {
+    margin: 0;
+    text-align: center;
+    width: 800px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: block;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 50px 25px 50px 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image2 div {
+    width: 100%;
+}
+.image2 hr {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.btn_download2 {
+    width: 500px;
+    height: 40px;
+    background: none;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: 2px white solid;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.Line2 {
+    outline: none;
+    width: 240px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+label a {
+    color: #EC7979;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    padding: 20px;
+    height: 75%;
+}
+.submit {
+    width: 170px;
+    height: 35px;
+    border: none;
+    background: #EC7979;
+    color: white;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.inputs span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Line1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    width: 100%;
+    line-height: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000
+}
+.Line3 {
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+textarea {
+    resize: none;
+}
+.areas {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+#area {
+    height: 130px;
+    font-family: 'Open Sans';
+}
+#areacentre {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.main hr {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #EC7979;
+}
