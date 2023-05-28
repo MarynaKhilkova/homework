@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-class {
+    align-content: center;
+}
+
+h2 {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+.page-title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 54px;
+}
+
+.page-title:after{
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    display:block;
+    margin: 54px auto 0;
+}
+
+.page-subtitle{
+    margin: 0;
+    font-weight:400;
+    text-align: center;
+    color:#868788;
+}
+
+.icons {
+    background-color: #FFFFFF;
+    padding: 75px;
+}
+.subicons {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+}
+.icon-model {
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon-preview {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-title {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.icon-description {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+    font-size: 18px;
+    color: #6C7279;
+}
+.tables {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    align-items: center;
+    justify-items: center;
+    margin-top: 40px;
+}
+.price_1 {
+    /*margin-top: 2916px;*/
+    width: 370px;
+    height: 510px;
+    left: 170px;
+    top: 2916px;
+}
+.price_2_hover {
+    width: 370px;
+    height: 510px;
+    left: 570px;
+    top: 2896px;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+.price_3 {
+    width: 370px;
+    height: 510px;
+    left: 970px;
+    top: 2916px;
+}
+.top {
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    color: #FFFFFF;
+}
+.Gb_Of_Space {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+    border: 1px solid #F5F5F5;
+}
+.pricing_options {
+    background: #F5F5F5;
+    padding-bottom: 50px;
+}
+.images {
+    background-color: #FFFFFF;
+    padding: 75px;
+}
+#main_product {
+    transform: translate(0px, -20px);
+    box-shadow: 0px 0px 15px gray ;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: 317px 317px 317px;
+    grid-gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.images-model {
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.upper-opinion {
+    font-size: 18px;
+    background: #E2E2E2;
+    padding: 20px;
+    border-radius: 10px;
+}
+.message-opinion {
+    color: #fff;
+}
+.message-opinion::after {
+    content: '';
+    position: absolute;
+    margin-left: 60px;
+    border: 20px solid transparent;
+    border-top: 20px solid #E2E2E2;
+}
+.down-opinion {
+    margin-top: 60px;
+    display: grid;
+    grid-template-areas: "a a";
+}
+.images-preview {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.opinion-imageblock img {
+    width: 75px;
+    height: 75px;
+    background-size: 100%;
+}
+.opinion-peopleblock p {
+    margin-top: 30px;
+}
+.opinion-peopleblock h4 {
+    margin-top: 15px;
+}
+
+.product {
+    display: grid;
+    width: 340px;
+    box-shadow: 0px 0px 1px gray ;
+    border-radius: 5px;
+}
+.product-upper {
+    background: #333333;
+    color: #FFFFFF;
+}
+.product-name {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-bottom: solid 2px white;
+}
+
+.product-price {
+    font-size: 27px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-bottom: solid 2px white;
+}
+
+.product-sign {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.product-info {
+    padding: 10px 0px 10px 0px;
+    box-shadow: gray 0px 0.5px;
+    text-transform: capitalize;
+    color: #86878B;
+    text-align: center;
+}
