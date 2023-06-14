@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixins";
+@import "grid";
+@import "typograghy";
+@import "helpers";
+@import "buttons";
+@import "header";
+@import "hero";
+@import "about";
+@import "futures";
+@import "services";
+@import "devices";
+@import "service";
+@import "reviews";
+@import "team";
+@import "partners";
+@import "work";
+@import "people";
+@import "reviews2";
+@import "stories";
+@import "latest";
+@import "carousel";
+
+
+html,
+body {
+  height: 100%;
+}
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+
+  @include flexify($dir: column);
+}
+main {
+  flex-grow: 1;
+  overflow: auto;
+  max-height: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+

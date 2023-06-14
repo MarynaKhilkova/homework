@@ -1,0 +1,64 @@
+.service {
+  height: 100%;
+  color: $black;
+  font-size: 18px;
+  text-align: center;
+  @include flexify($wrap: wrap);
+  padding: {
+    top: 50px;
+    bottom: 50px;
+  }
+
+  &-line {
+    width: 170px;
+    height: 3px;
+    border-top: 4px solid $red;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    opacity: 1;
+  }
+
+  &-title {
+    font: {
+      size: 24px;
+      weight: $fw-xb;
+    }
+    text-transform: uppercase;
+  }
+  &-title2 {
+    font: {
+      size: 18px;
+      weight: $fw-n;
+    }
+    text-transform: uppercase;
+    text-align: center;
+    padding: {
+      left: 20px;
+      top: 20px;
+      bottom: 20px;
+    }
+  }
+
+
+  &-overhead {
+    font: {
+      family: $ff-kaushan;
+      size: 24px;
+      weight: $fw-r;
+    }
+    text-transform: uppercase
+  }
+
+  &-subtitle {
+    font: {
+      size: 14px;
+      weight: $fw-r;
+    }
+    text-transform: uppercase
+  }
+  .images-preview {
+    width: 100%;
+    height: 100%;
+  }
+}

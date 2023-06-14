@@ -1,0 +1,31 @@
+.futures {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: $white;
+
+  &-item {
+    height: 100%;
+    background-color: $green;
+    width: 100%;
+    font-size: 18px;
+    @include flexify($dir: row, $justify: space-between);
+      }
+
+  &-title {
+    font: {
+      size: 48px;
+      weight: $fw-n;
+      style: normal;
+    }
+    line-height: 56px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid $white;
+  }
+}
+
+
+
+

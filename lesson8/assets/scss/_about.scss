@@ -1,0 +1,148 @@
+
+.upabout {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  background-color: #FFFFFF;
+    padding: {
+    top: 40px;
+    bottom: 50px;
+  }
+
+  &-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: 150%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 2px solid #FFFFFF;
+  }
+}
+.about {
+  text-align: center;
+  padding: {
+    top: 100px;
+    bottom: 50px;
+
+  }
+  &-title {
+    font: {
+      size: 24px;
+      weight: $fw-xb;
+    }
+    text-transform: uppercase;
+  }
+
+  &-line {
+    width: 170px;
+    height: 3px;
+    border-top: 4px solid $red;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    opacity: 1;
+  }
+
+  &-item {
+    display: flex;
+    gap: 20px;
+  }
+
+  &-overhead {
+
+    font: {
+      family: $ff-kaushan;
+      size: 24px;
+      weight: $fw-r;
+    }
+    text-transform: uppercase
+
+  }
+
+  &-subtitle {
+
+    font: {
+      size: 14px;
+      weight: $fw-r;
+    }
+    text-transform: uppercase
+
+  }
+}
+
+
+#Story1 {
+  background-image: url("../images/img_21.png");
+
+}
+#Story2 {
+  background-image: url("../images/ImgStory2.png");
+
+}
+#Story3 {
+  background-image: url("../images/ImgStory3.png");
+
+}
+
+
+.upabout > * {
+  background-color: #ffbf94;
+  margin: 1px;
+}
+
+
+.grid-section-inner {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  color: #fff;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.grid-section-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90%;
+  cursor: pointer;
+  background-size: 180%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.grid-section-item:before {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  height: 0;
+  transition: height .5s;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+}
+
+.grid-section-item:hover,
+.grid-section-item:active {
+  background-size: 190%;
+}
+
+.grid-section-item:hover [class*="inner"] {
+  opacity: 1;
+}
+.grid-section-item:hover:before {
+  height: 100%;
+}
+
+.grid-section-item:active [class*="inner"] {
+  opacity: 1;
+}
+.grid-section-item:active:before {
+  background-image: linear-gradient(rgba(0, 0, 255, .5), rgba(0, 0, 255, .5));
+  height: 100%;
+}

@@ -1,0 +1,40 @@
+header {
+  background-color: transparent;
+  height: 100px;
+  @include flexify();
+}
+
+.Logo {
+  width: 100%;
+  max-width: 180px;
+  background: {
+    image: url("../icons/logo.svg");
+    position: center;
+    size: contain;
+    repeat: no-repeat;
+  };
+}
+
+.navigation {
+  @include flexify();
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  &-item {
+    padding: 0 20px;
+    @include flexify($align: center);
+  }
+
+  &-link {
+    text: {
+      transform: uppercase;
+      decoration: none;
+    }
+    color: $white;
+    font: {
+      weight: $fw-b;
+      size: 14px;
+    }
+  }
+}

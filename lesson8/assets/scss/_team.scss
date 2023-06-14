@@ -1,0 +1,89 @@
+.team {
+  text-align: center;
+  &-main {
+    padding: 20px;
+  }
+
+  &-builder {
+    @include flexify($justify: space-between);
+  }
+
+  &-icon {
+    width: 100%;
+    height: 30vw;
+  }
+
+  &-icons {
+    opacity: 0;
+    position: absolute;
+    width: 26.60%;
+    height: 30vw;
+  }
+
+  &-line {
+    width: 170px;
+    height: 3px;
+    border-top: 4px solid $red;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    opacity: 1;
+  }
+
+  &-icons:hover {
+    opacity: 1;
+  }
+
+  &-constructor {
+    @include flexify($dir: column);
+  }
+
+  &-profile {
+    @include flexify($dir: column);
+  }
+
+  &-title {
+
+    font: {
+      size: 24px;
+      weight: $fw-xb;
+    }
+
+    text: {
+      transform: uppercase;
+      align: center;
+    }
+    padding: 15px 15px 0px;
+  }
+
+  &-status {
+    font: {
+      weight: 300;
+      size: 18px;
+    }
+    text: {
+      transform: uppercase;
+      align: center;
+    }
+    margin: -10px;
+  }
+  &-overhead {
+
+    font: {
+      family: $ff-kaushan;
+      size: 24px;
+      weight: $fw-r;
+    }
+    text-transform: uppercase
+
+  }
+
+  &-subtitle {
+    text-align: center;
+    font: {
+      size: 14px;
+      weight: $fw-r;
+    }
+    text-transform: uppercase
+  }
+}

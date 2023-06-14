@@ -1,0 +1,71 @@
+.devices {
+  height: 100%;
+  color: $black;
+  background: {
+    image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../images/img_13.png");
+    repeat: no-repeat;
+    size: cover;
+    position: center;
+  }
+  font-size: 18px;
+  text-align: center;
+  padding: {
+    top: 50px;
+    bottom: 50px;
+
+  }
+
+  &-title {
+    font: {
+      size: 24px;
+      weight: $fw-xb;
+    }
+    text-transform: uppercase;
+  }
+  &-paste {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-overhead {
+
+    font: {
+      family: $ff-kaushan;
+      size: 24px;
+      weight: $fw-r;
+    }
+    text-transform: uppercase
+  }
+  &-line {
+    width: 170px;
+    height: 3px;
+    border-top: 4px solid $red;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    opacity: 1;
+  }
+
+}
+.images {
+  &-preview {
+    width: 100%;
+
+  }
+  &-item {
+    width: 450px;
+  }
+  &-title {
+    width: 446.9px;
+    height: 335px;
+    border: 10px solid;
+    border-radius: 4%;
+    transform: translate(0px, 52px);
+  }
+  &-subtitle {
+    width: 135.55px;
+    height: 279.17px;
+    transform: translate(355px, -160px);
+
+  }
+}

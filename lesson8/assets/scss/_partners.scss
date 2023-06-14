@@ -1,0 +1,27 @@
+.partners {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  &-item {
+    height: 100%;
+    background-color: #F8F8F8;
+    width: 100%;
+    font-size: 18px;
+    @include flexify($dir: row, $justify: center, $wrap: wrap);
+    padding: {
+      top: 50px;
+      bottom: 50px;
+    }
+  }
+  &-item div {
+    @include flexify($justify: space-around);
+    width: auto;
+    gap: 20px;
+  }
+  .icon-preview {
+    @include flexify($align: center, $justify: space-between);
+  }
+
+  .icon {
+    @include flexify($justify: center);
+  }
+}

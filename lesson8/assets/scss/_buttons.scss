@@ -1,0 +1,37 @@
+.button {
+  @include flexify($align: center, $justify: center);
+  border: 0;
+  cursor: pointer;
+&-pm {
+  width: 100%;
+  max-width: 370px;
+  height: 80px;
+  background-color: transparent;
+  color: $white;
+  border: 4px solid;
+  font: {
+    weight: $fw-n;
+    size: 24px;
+  }
+  @include flexify($align: center, $justify: center);
+}
+
+&-bar {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  padding: 10px 0;
+  align-self: center;
+  @include flexify($dir: column, $justify: space-between);
+  &:before,
+  &:after,
+  &-item {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: $white;
+  }
+}
+}
+

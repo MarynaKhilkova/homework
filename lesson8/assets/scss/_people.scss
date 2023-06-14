@@ -1,0 +1,108 @@
+.people {
+  text-align: center;
+  &-main {
+    padding: 20px 20px;
+  }
+  &-builder {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+  }
+  @media (max-width: 1050px) {
+    &-builder {
+      display: grid;
+      grid-template-columns: 500px;
+      justify-content: center;
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      justify-items: stretch;
+      align-items: stretch;
+    }
+  }
+  &-constructor {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  &-name {
+    font: {
+      size: 18px;
+      weight: 900;
+      family: "Raleway", sans-serif;
+    }
+    text: {
+      transform: uppercase;
+    }
+    margin: 0;
+  }
+  &-profile {
+    display: flex;
+    flex-direction: column;
+  }
+  &-profession {
+    margin: 0;
+    font: {
+      size: 16px;
+      weight: 200;
+      family: "Raleway", sans-serif;
+    }
+    color: #2D3033;
+    text: {
+      transform: uppercase;
+    }
+  }
+  &-line2 {
+    width: 170px;
+    height: 3px;
+    border-top: 4px solid $red;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    opacity: 1;
+  }
+
+
+  &-line {
+    width: 50px;
+    border-top: 5px solid $red;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    opacity: 1;
+  }
+  &-icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+  }
+
+  &-title {
+    font: {
+      size: 24px;
+      weight: $fw-xb;
+    }
+    text-transform: uppercase;
+  }
+  &-overhead {
+
+    font: {
+      family: $ff-kaushan;
+      size: 24px;
+      weight: $fw-r;
+    }
+    text-transform: uppercase
+
+  }
+  &-subtitle {
+    text-align: center;
+    font: {
+      size: 14px;
+      weight: $fw-r;
+    }
+    text-transform: uppercase
+  }
+
+}
